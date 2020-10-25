@@ -23,5 +23,3 @@ pnpm-debug.log*
 *.sw?
 
 package-lock.json
-Dockerfile
-.dockerignore
