@@ -1,7 +1,11 @@
 <template>
+<div>
   <ul>
     <li v-for="user in users" :key="user.id">{{user.name}}</li>
   </ul>
+  <p>那你能不能自动化部署</p>
+  </div>
+  
 </template>
 
 <script>
