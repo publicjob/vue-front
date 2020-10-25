@@ -19,7 +19,7 @@ export default {
   },
   mounted() {
     axios.get('/api/user')
-    .then(res => this.users = res.data)
+    .then(res => {this.users = res.data})
   }
 }
 </script>
