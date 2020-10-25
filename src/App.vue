@@ -20,7 +20,7 @@ export default {
   mounted() {
     axios.get('/api/user')
     .then(res => console.log(res))
-    .catch(err => console.log('请求失败'))
+    .catch(err => console.log('请求失败!'))
   }
 }
 </script>
