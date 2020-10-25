@@ -3,7 +3,7 @@
   <ul>
     <li v-for="user in users" :key="user.id">{{user.name}}</li>
   </ul>
-  <p>那你能不能自动化部署，这是一次自动化脚本部署测试</p>
+  <p>那你能不能自动化部署，这是一次自动化试</p>
   </div>
   
 </template>
